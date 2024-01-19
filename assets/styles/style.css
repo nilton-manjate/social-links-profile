@@ -1,1 +1,80 @@
-﻿
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --grey: hsl(0, 0%, 20%);
+  --darkGrey: hsl(0, 0%, 12%);
+  --offBlack: hsl(0, 0%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--offBlack);
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+main {
+  width: 295px;
+  background-color: var(--darkGrey);
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+}
+
+.bio img {
+  width: 85px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.bio h1 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.bio address {
+  font-style: normal;
+  font-weight: 700px;
+  color: var(--green);
+  margin-bottom: 30px;
+}
+
+.bio p {
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+.links ul {
+  list-style: none;
+  display: grid;
+  gap: 15px;
+}
+
+.links a {
+  background-color: var(--grey);
+  color: white;
+  display: block;
+  padding: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 7px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.links a:hover {
+  background-color: var(--green);
+  color: var(--offBlack);
+  transition: .5s;
+}
