@@ -48,7 +48,7 @@ main {
 
 .bio address {
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   color: var(--green);
   margin-bottom: 30px;
 }
