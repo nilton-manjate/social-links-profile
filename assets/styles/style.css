@@ -1,5 +1,7 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+﻿/* Import fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
+/* Declare variables for colors */
 :root {
   --green: hsl(75, 94%, 57%);
   --grey: hsl(0, 0%, 20%);
@@ -7,6 +9,7 @@
   --offBlack: hsl(0, 0%, 8%);
 }
 
+/* Stylesheet reset */
 * {
   margin: 0;
   padding: 0;
@@ -31,6 +34,7 @@ main {
   text-align: center;
 }
 
+/* Section with the bio of author */
 .bio img {
   width: 85px;
   border-radius: 50%;
@@ -54,6 +58,7 @@ main {
   font-weight: 400;
 }
 
+/* Section with the social links */
 .links ul {
   list-style: none;
   display: grid;
