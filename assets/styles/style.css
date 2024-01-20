@@ -73,7 +73,7 @@ main {
   transition: .5s;
 }
 
-.links a:hover {
+.links a:hover, .links a:focus {
   background-color: var(--green);
   color: var(--offBlack);
   transition: .5s;
